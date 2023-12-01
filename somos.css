@@ -1,0 +1,272 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #FF7F99;
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wehelp, .you {
+    color: #FFFCFC;
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 52px;
+}
+
+    .you{
+        color: #FFF065;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: -740px; 
+        margin-top: 25px;
+    
+        }
+
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+}
+
+nav a {
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+nav button {
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    border: none;
+    transition: 0.3s, color 0.3s;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+nav button:hover {
+    background-color: rgba(255, 202, 65, 0.70);
+    color: #000 !important;
+    opacity: 0.8;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    margin-top: 25px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+label {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #ff9dbb;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 35px;
+}
+
+button:hover {
+    background-color: #ff66a3;
+}
+
+#informacion {
+    background-color: #ffefee;
+    padding: 15px;
+    text-align: center;
+    width: 1440px;
+    margin-top: 50px;
+}
+
+#logotipo{
+    height: 150px;
+    width: 150px;
+    margin-bottom: -150px;
+}
+
+#facebook{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+#logoinstagram{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+#email {
+    height: 53px;
+    width: 53px;
+    padding: 10px;
+
+}
+a.sin-subrayado {
+    text-decoration: none;
+  }
+  
+
+.iconosredes{
+    display: flex;
+    align-items: first baseline;
+    margin-left: -1100px;
+    margin-top: 100px;
+    
+}
+
+
+h2 {
+    color: #ff66a3;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    margin: 5px 0;
+}
+/* ... (tu código existente) ... */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 20px;
+    text-align: center; /* Alinea los enlaces al centro */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* modificacion formulario */
+
+
+#cuerpo {
+    margin-top: 20px; /* Ajusta según tu diseño */
+}
+
+#formulario {
+    border: 1px solid #333 ; /* Ajusta el ancho del borde según tu preferencia */
+    padding:5px; /* Ajusta el relleno según tu preferencia */
+    text-align: center;
+    margin-top: 40px; /* Ajusta el margen superior según tu diseño */
+    margin-bottom: -170px; 
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+nav a:hover {
+    background-color: #FF7F99; /* Cambia a tu color rosa cuando se pasa el cursor sobre el enlace */
+}
+
+
+#cuerpo .enlace-contacta button {
+    font-size: 30px; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+
+
+
+
+.contactanos {
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#somos {
+    text-align: center;
+    padding: 150px;
+}
+
+h2 {
+    color: #333;
+    font-size: 30px;
+}
+
+.highlight-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: black; 
+    margin-top: -110px;
+}
+
+@media screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Estilos para pantallas grandes */
+}

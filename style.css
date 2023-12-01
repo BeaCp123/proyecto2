@@ -1,0 +1,416 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+header{
+    background-color: #FF7F99;
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; /* Centra verticalmente los elementos del header */
+}
+a.sin-subrayado {
+    text-decoration: none;
+  }
+  
+
+.wehelp{
+    color: #FFFCFC;
+    font-family: 'Jost', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 52px;
+    line-height: normal;
+    
+    }
+
+ .cuerpo{
+        display: flex;
+        
+    }
+
+#in{
+    margin-left: 95px;
+    margin-top: -15px;
+    height: 36px;
+width: 39px;
+}
+
+.cuerpo{
+    background-color: white;
+    height: 500px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.textoderecha h3{
+    margin-right: 50px;
+}
+.textoderecha{
+    text-align: right;
+    margin-right: 50px;
+}
+.textoderecha {
+    margin-left: 700px;
+    margin-top: -350px;
+    width: 300px;
+}
+.textoderecha nav{
+width: 300px;
+height: 32px;
+
+
+}
+
+.textoderecha h1{
+color: #FF7F99;
+
+font-family: 'Jost', sans-serif;
+font-size: 64px;
+font-style: italic;
+font-weight: 500;
+line-height: 70px; 
+
+}
+
+.textoderecha h3{
+    color: #000;
+ font-family: 'Jost', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 70px; 
+margin-top: -50px;
+margin-left: -200px;
+}
+
+.textoderecha nav{
+border-radius: 12px;
+border: 0.5px solid #000;
+background: rgba(255, 202, 65, 0.70);
+width: 190px;
+height: 30px;
+margin-top: -20px;
+
+}
+
+.textoderecha button{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 15px;
+    border-radius: 20%;
+    
+    
+}
+
+
+
+nav button {
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200px;
+    line-height: normal;
+    border: none;
+    transition: 0.3s, color 0.3s;
+    background-color: transparent;
+    margin: 30px;
+    opacity: 0.8;
+    border-radius: 50%;
+    
+}
+
+nav button:hover {
+    background-color: rgba(255, 202, 65, 0.70);
+    color: #000 !important;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pareja{
+    background-color: #FF7F99;
+    height: 400px;
+    width: 420px;
+    border-radius: 50% 0 50% 50%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    position: relative; 
+}
+
+.llamamos-button {
+    font-weight: bold;
+    margin-top: 18px;
+    
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: transparent; /* Color de fondo del botón Te llamamos */
+    border: none;
+    padding: 3px 20px;
+    width: 150px;
+    height: 20px;
+   
+}
+
+footer h5{
+margin-left: 70px;
+color: #FFFCFC;
+font-family: 'Jost', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 15px;
+}
+
+footer h6{
+margin-left: 50px;
+margin-top: -15px;
+color: #000;
+font-family: 'Jost', sans-serif;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+
+.h5pedro{
+    margin-left: 60px ;
+}
+
+#pareja {
+    height: 325px;
+    width: 200px;
+    margin-left: 130px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.contenedorfooter{
+    background-color:#FF7F99 ;
+    height: 390px;
+    width: 1390px;
+    margin-bottom: 2%;
+    border-radius: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorfooter div{
+    margin-top: 25px;
+}
+
+ .you{
+    color: #FFF065;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -625px; 
+    margin-top: 33px;
+
+    }
+
+
+    /* menu desplegable */
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropbtn {
+        
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        font-size: 20px;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #FF7F99;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #ffca41;
+      }
+      
+
+/* despliegue numero de teléfono */
+
+.te-llamamos .te-llamamos-form {
+    display: none;
+    position: absolute;
+    background-color: #FF7F99; /* Fondo azul cielo */
+    color: whitesmoke;
+    padding: 8px; /* Ajustado para menos espacio */
+    border-radius: 7px; 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: -20px;
+    right: -490px; /* Situado más a la derecha con margen de 20px */
+    width: 200px;
+    height: 140px;
+    text-align: center; /* Centra el texto */
+}
+#ingrese{
+    font-size: 23px;
+    font-weight: bold
+}
+
+#pedro{
+    transition: filter 0.3s ease-in-out;
+}
+
+#maria{
+    transition: filter 0.3s ease-in-out;
+}
+#melquiades{
+    transition: filter 0.3s ease-in-out;
+}
+#andres{
+    transition: filter 0.3s ease-in-out;
+}
+
+/* transiciones imagenes chic@s */
+#pedro:hover{
+  
+        filter: grayscale(100%); /* Cambia la imagen a escala de grises al pasar el cursor */
+    
+}
+
+#pedro:active {
+    background-color: #ffca41; /* Cambia el color de fondo al hacer clic */
+    filter: grayscale(0%); /* Restaura el color al hacer clic */
+}
+#andres:hover{
+  
+    filter: grayscale(100%);
+
+}
+#andres:active {
+    background-color: #ffca41; /* Cambia el color de fondo al hacer clic */
+    filter: grayscale(0%); /* Restaura el color al hacer clic */
+}
+#maria:hover{
+  
+    filter: grayscale(100%);
+
+}
+
+#maria:active {
+    background-color: #ffca41; /* Cambia el color de fondo al hacer clic */
+    filter: grayscale(0%); /* Restaura el color al hacer clic */
+}
+#melquiades:hover{
+  
+    filter: grayscale(100%); /* Cambia la imagen a escala de grises al pasar el cursor */
+
+}
+
+#melquiades:active {
+    background-color: #ffca41; /* Cambia el color de fondo al hacer clic */
+    filter: grayscale(0%); /* Restaura el color al hacer clic */
+}
+/* fin transiciones */
+
+.te-llamamos .te-llamamos-form label {
+    color: white; /* Texto blanco para "Ingrese su número" */
+    font-size: 18px; /* Tamaño de fuente más grande para el texto */
+    display: block; /* Coloca cada etiqueta en una nueva línea */
+    margin-bottom: 10px; /* Espacio entre etiquetas y campo de entrada */
+}
+
+.te-llamamos .te-llamamos-form input {
+    width: 100%;
+    padding: 12px; /* Ajusta el tamaño del campo de entrada */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.te-llamamos:hover .te-llamamos-form {
+    display: block;
+}
+
+.llamar-button {
+    background-color: blue; /* Fondo rosa para "Llamar" */
+    color: white;
+    padding: 5px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.llamar-button:hover {
+    background-color: #ffca41; /* Cambiado a un tono más claro de rosa al pasar el ratón */
+}
+
+
+@media screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Estilos para pantallas grandes */
+}
